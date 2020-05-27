@@ -1,0 +1,30 @@
+.container-description{
+    background: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+    margin-bottom: 10em;
+
+    .wrapper-description{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 4em 5em;
+
+        .description-img{
+            margin-right: 2em;
+            
+            img{
+                width: 100%;
+            }
+        }
+
+        .description-content{
+            width: 60%;
+            align-items: center;
+
+            p{
+                margin: 0;
+            }
+        }
+    }
+}

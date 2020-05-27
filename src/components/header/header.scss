@@ -1,0 +1,33 @@
+.container-header{
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 60%;
+
+    margin-bottom: 10em;
+    
+    .wrapper-header{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        
+        .header-content{
+            h1{
+                width: 60%;
+                margin-bottom: 5%;
+            }
+            p{
+                width: 350px;
+                text-align: left;
+                margin-bottom: 5%;
+            }
+        }
+
+        .header-img{
+
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.container-features{
+    margin-bottom: 10em;
+    text-align: center;
+    align-items: center;
+
+    .features-description{
+        margin-bottom: 4em;
+
+        p{
+            width: 50%;
+            margin: auto;
+        }
+    }
+
+    .features-content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

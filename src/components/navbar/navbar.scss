@@ -1,0 +1,41 @@
+.nav-container{
+    height: 160px;
+    position: relative;
+    
+    .wrapper{
+        margin: 0 auto;
+
+        nav{
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            height: 160px;
+
+            .logo{
+                width: 49px;
+                height: 35px;
+                margin-right: 5%;
+            }
+
+            ul {
+                display: flex;
+                list-style-type: none;
+                margin-right: 25%;
+        
+                li{
+                    margin-right: 50px;
+                    padding: 1;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 160%;
+                    color: #4B5D68;
+                    
+                }
+                .active{
+                    color: #212353;
+                }
+            }
+        }
+    }    
+}

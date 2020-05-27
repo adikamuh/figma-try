@@ -1,0 +1,50 @@
+.container-testi-component{
+    max-width: 645px;
+    margin-right: 2em;
+
+    background: #FFFFFF;
+    box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+    border-radius: 20px;
+
+    .wrapper-testi{
+        display: flex;
+        justify-content: space-between;
+
+        padding: 2.5em;
+
+        .profile-pic{
+            margin-right: 2em;
+        }
+
+        .content{
+            font-family: NotoSans-Regular;
+            font-style: normal;
+            font-weight: normal;
+            h5{
+                font-size: 18px;
+                line-height: 160%;
+                letter-spacing: 0.005em;
+                margin-bottom: 0;
+
+                /* 2 */
+
+                color: #212353;
+            }
+            small{
+                font-size: 14px;
+                line-height: 160%;
+                letter-spacing: 0.01em;
+
+                /* 3 */
+
+                color: #9C69E2;
+            }
+            p{
+                font-size: 16px;
+                line-height: 180%;
+                /* or 32px */
+                color: #4B5D68;
+            }
+        }
+    }
+}
